@@ -1,5 +1,5 @@
 {
-  "name": "eth-nuxt-todo-list-1",
+  "name": "vue-nuxt-eth-todolist-dapp",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
+  "author": "aadhaar.m@lounge3.com",
   "dependencies": {
     "@nuxtjs/vuetify": "^1.11.2",
     "nuxt": "^2.14.0",
