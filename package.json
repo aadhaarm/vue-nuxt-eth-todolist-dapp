@@ -1,0 +1,18 @@
+{
+  "name": "eth-nuxt-todo-list-1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "nuxt": "^2.14.0",
+    "truffle": "^5.1.39",
+    "truffle-contract": "^4.0.31",
+    "web3": "^1.2.11"
+  }
+}
