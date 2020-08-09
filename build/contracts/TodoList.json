@@ -2596,12 +2596,13 @@
         }
       },
       "links": {},
-      "address": "0x3A7C39ccE567Ef81e1E4e28769AA1Aeff1a2ACA8",
-      "transactionHash": "0x916c6228e98057a5956417f269ea64255f630473cd2843a6dc56b433fec3df70"
+      "address": "0x2710d7E54083c07F8c1E0EBE3B0162896dC72C73",
+      "transactionHash": "0x78b7afb96b1c235eab932f6ff6087716e0ca827ac248863c7cac6d9cd876cf26"
     }
   },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2020-08-09T00:27:50.037Z",
+  "updatedAt": "2020-08-09T01:12:27.654Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
