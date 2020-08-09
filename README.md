@@ -17,6 +17,10 @@ The is a decentralised application (DAPP) built on Vue-nuxt framework.
 3. truffle
 4. web3
 
+## Install smart contract
+1. truffle compile
+2. truffle migrate --reset
+
 ## Build Setup
 
 ```bash
