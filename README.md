@@ -1,4 +1,15 @@
-# eth-nuxt-todo-list-1
+# vue-nuxt-eth-todolist-dapp
+The is a decentralised application (DAPP) built on Vue-nuxt framework.
+1. Creation of smart contract on truffle framework
+2. Local blockchain for dev and test on Ganache
+3. Browser connection to Blockchain using Metamask chrome plugin
+
+## Dev Steps
+1. Install Ganache
+2. Install Metamask
+3. Install dependencies
+4. Configure local blockchain in metamask
+5. Run the application
 
 ## Build Setup
 
@@ -8,13 +19,3 @@ $ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
