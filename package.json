@@ -11,6 +11,7 @@
   "author": "aadhaar.m@lounge3.com",
   "dependencies": {
     "@nuxtjs/vuetify": "^1.11.2",
+    "@truffle/hdwallet-provider": "^1.0.42",
     "nuxt": "^2.14.0",
     "truffle": "^5.1.39",
     "truffle-contract": "^4.0.31",

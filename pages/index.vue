@@ -6,7 +6,7 @@
     <v-btn @click="createTask">Add Task</v-btn>
 
     <h3>Tasks</h3>
-    <v-data-table :headers="headers" :items="tasks" class="elevation-1"></v-data-table>
+    <v-data-table :loading="loading" :headers="headers" :items="tasks" class="elevation-1"></v-data-table>
     <v-text-field v-model="id" label="ID"></v-text-field>
     <v-btn @click="toggleCompleted">Complete/In-Complete</v-btn>
   </div>
@@ -37,7 +37,7 @@
         account: null,
         web3: null,
         contracts: {},
-        loading: false,
+        loading: true,
         tasks: [],
         newTaskCont: '',
         id: 0
@@ -53,6 +53,7 @@
         await this.loadAccount(this)
         await this.loadContract(this)
         await this.renderTasks(this)
+        this.loading = false
       },
       async loadWeb3() {
         this.web3 = window.web3
